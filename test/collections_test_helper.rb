@@ -2,7 +2,7 @@ require_relative "./test_helper"
 require "fileutils"
 
 VALID_COLLECTION_METADATA_KEYS = %w[collection created_by display_name image items].freeze
-REQUIRED_COLLECTION_METADATA_KEYS = %w[items display_name].freeze
+REQUIRED_COLLECTION_METADATA_KEYS = %w[items display_name].freezemmm
 
 MAX_COLLECTION_ITEMS_LENGTH = 100
 MAX_COLLECTION_SLUG_LENGTH = 40
